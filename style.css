@@ -12,14 +12,31 @@ header {
     
 }
 header > img  {
-    width: 10%;
+    width: 20%;
     float: left;
     }
 
 nav {
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
 main {
+}
+
+section {
+}
+
+div {
+
 }
 
 footer {
