@@ -1,26 +1,29 @@
 body {
-    font-family: Verdana, "Geneva", sans-serif;
-    color: rgb(91,91,91);
-    width: 90%; 
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #020202;
+    color: white;
+    font-family: Alegreya, Bree; 
+    margin: 0;
+    padding: 0;
 
 }
 header {
-    text-align: center;
-    padding: 20px; 
+    background-color: #B21127;
+    padding: 20px;
     
 }
 header > img  {
-    width: 20%;
+    width: 10%;
     float: left;
     }
 
+nav {
+}
+
 main {
-    background-color: white;
-    width: 80%;
 }
 
 footer {
-    background-color: white;
+    background-color: #B21127;
+    color: white;
+    padding: 10px 20px;
 }
