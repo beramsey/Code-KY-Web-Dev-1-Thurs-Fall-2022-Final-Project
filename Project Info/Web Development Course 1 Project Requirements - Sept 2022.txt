@@ -1,0 +1,81 @@
+Project Requirements Overview:
+Create an application that demonstrates your knowledge of the FEWD development skills you’ve been learning. This application can be anything of your choosing as long as it demonstrates the below requirements. 
+
+REQUIREMENTS:
+
+The below items are the requirements for your personal project for the FEWD class. Projects are graded on a pass/fail system, thus every requirement must be met in order for your project to pass. You should discuss your project/plan with mentors regularly to ensure you’re on the right path to passing.
+
+Program staff and mentors will review projects after they are turned in and will determine if your project meets these requirements:
+
+●	Project Plan for Final Project. 
+○	A project plan defines all work in a project and identifies who will do it.
+○	Project Plan is to be submitted starting Week 6, no later than the Sunday of Week 8 11:59PM. 
+○	Project Plan should list the items from the “Features List” you plan to include.
+○	Project Plan could include: 
+■	Low to High-Fidelity Wireframe with Features List
+●	Provide mobile, tablet and desktop views.
+■	Project Brief explaining the project and the features you plan to include.
+○	Please ask a mentor to make sure your Project Plan meets final project requirements. 
+○	Project Plan does not need to be a finished mockup/design/image.
+
+
+
+●	Project must be visually appealing. 
+○	Design is subjective, but most websites follow trends and being able to replicate them is useful.
+○	Remember we are looking to create projects that employers want to look at and hire you from. So make sure you are well represented with your project.
+○	Look at other websites. Copy or mimic styles and features you see.
+■	Choose a color palette: (for ideas: https://coolors.co/palettes/trending you do not need to use all the colors in the palette)
+■	Set a font stack: Visit https://heyreliable.com/ultimate-google-font-pairings/ for ideas on what font combinations work well together. 
+■	Use your own photos or ones with a free to use license like https://unsplash.com/ 
+
+●	You must include a minimum of 2 media queries that create a better layout/user experience
+○	They must make some visible changes to your site’s layout, such as re-aligning/moving content areas, changing your menu, changing the location of content areas and images, hiding/showing elements, etc. This does NOT include things like changing the color of text or the background, changing fonts, changing alignments, etc. We are looking to see you can use media queries to move content on your site. 
+○	CSS Flexbox and CSS Grid are crucial to this requirement.
+○	The two media queries must be designed with “mobile first” principles in mind
+■	This means mobile phones should be the base for the css. 
+■	Then use a tablet media query to make changes for that experience. 
+■	And Then a Desktop media query to make changes for the desktop experience. 
+■	We should be able to see your site change layout as we make your site larger or smaller.
+●	Project is uploaded to your GitHub repository and shows at minimum 5 separate commits
+○	You must upload via Git commands. Using GitHub’s file uploader on their website does not count as a check-in. 
+○	Essentially, we need to see that you are using Git regularly as intended and not just waiting until your project is done to upload your final content.
+○	Note that committing and pushing 5 changes at one time is a single commit, not 5 separate commits. 
+●	Project includes a README file that explains the following:
+○	A one paragraph or longer description of what your project is.
+○	Which 3+ features you have included from the below lists to meet the requirements.
+○	If needed, any special instructions required for the reviewer to run your project.
+○	The readme should be called readme.md or readme.txt and located in the top level of your project folder so that GitHub automatically displays it when viewing your project on GitHub
+●	Project must be a fully formed website with headers, footers, and body sections.
+●	HTML must be your best efforts at being semantic (What is Semantic HTML?)
+●	Choose at least 3 options from the list below, consider a 4th option in-case one malfunctions.
+●	All projects must use either flexbox or grid for the page layout. (***)
+●	All projects must take best efforts to be accessible (***)
+●	
+
+FEATURE 	DIFFICULTY	RESOURCES
+Create a responsive menu with CSS	easy	https://www.makeuseof.com/responsive-navigation-bar-using-html-and-css/
+
+Create a responsive menu with JavaScript	intermediate	https://polypane.app/blog/the-perfect-responsive-menu/
+
+Create an accessible responsive menu	hard	https://www.a11ymatters.com/pattern/mobile-nav/
+
+Run PageSpeed Insights from google.com get a score of 60 or better	easy	https://pagespeed.web.dev/
+https://web.dev/measure/
+
+Run PageSpeed Insights from google.com get a score of 80 or better	intermediate	https://pagespeed.web.dev/
+https://web.dev/measure/
+
+Run an accessibility check and make and document the  adjustments in your readme	easy	https://web.dev/measure/
+https://accessibe.com/accessscan
+
+Add your own transition animation(s) to an element on hover.	easy	https://www.w3schools.com/howto/howto_css_transition_hover.asp
+
+Create a custom animation that animates across the screen	intermediate	
+Create a simple hide/show div with CSS	easy	
+Create accordion boxes to display different types of information.	intermediate	https://www.w3schools.com/howto/howto_js_accordion.asp
+
+Create and populate a JavaScript array with one or more values and display the contents of some or all of the array on your page	intermediate	https://www.plus2net.com/javascript_tutorial/array-display.php
+
+		
+		
+
