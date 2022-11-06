@@ -93,6 +93,36 @@ main {
     padding: 1.5em 0;
 }
 
+.menu-item {
+    display: flex;
+}
+
+.menu-item-image {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+}
+
+.menu-item-text {
+    flex-grow: 1;
+  }
+
+  .menu-item-heading {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .menu-item-name {
+    margin-right: 1.5em;
+  }
+  
+  .menu-item-description {
+    line-height: 1.6;
+  }
+
 @media screen and (min-width: 992px) {
     .menu-group {
         font-size: 16px;
@@ -101,7 +131,13 @@ main {
     .menu-group {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .menu-item-image {
+        width: 125px;
+        height: 125px;
+    }
 }
+
 
 footer {
     background-color: #B21127;
