@@ -25,14 +25,15 @@
       
   <h2>About Hometown Pizza</h2>
   <p>
-    Hometown Pizza opened in 2022 offering tasty wood fired pizzas, pasta, and wings. We also boast a fully stocked bar and stage to spice up your saturday nights. 
+    Hometown Pizza opened in 2022 offering tasty wood fired pizzas, pasta, wings, and desserts. We also boast a fully stocked bar and stage to spice up your saturday nights. 
     Come visit us for some fresh food and excellent entertainemnt. Check out our menu and contact info below. 
   </p>
   
+  <!--Restaurant Menu Begin-->
   <h2>Menu</h2>
-  <h2 class="menu-group-heading">
-    Pizza
-  </h2>
+  <div class="accordion">
+    <button type="button" class="accordion__button">Pizza</button>
+    <div class="accordion__content">
   <div class="menu-group">
     <div class="menu-item">
       <img class="menu-item-image" src="./Photos/Cheese Pizza.jpg" alt=" Cheese Pizza">
@@ -72,13 +73,15 @@
           <span class="menu-item-price">19.99</span>
         </h3>
         <p class="menu-item-description">Pizza with cheese, sausage, pepperoni, black olives, onions, and peppers.</p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <h2 class="menu-group-heading">
-    Pasta
-  </h2>
+<div class="accordion">
+  <button type="button" class="accordion__button">Pasta</button>
+  <div class="accordion__content">
   <div class="menu-group">
     <div class="menu-item">
       <img class="menu-item-image" src="./Photos/Spaghetti and Meatballs.jpg" alt=" Spaghetti and Meatballs">
@@ -117,14 +120,16 @@
           <span class="menu-item-name">Lasagna</span>
           <span class="menu-item-price">14.99</span>
         </h3>
-        <p class="menu-item-description">Laysers of pasta with beef, italian sausage, cheese, house-made marinara, and plenty of cheese. Includes garlic bread.m,      </p>
+        <p class="menu-item-description">Layers of pasta with beef, italian sausage, cheese, house-made marinara, and plenty of cheese. Includes garlic bread.m,      </p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <h2 class="menu-group-heading">
-    Wings
-  </h2>
+<div class="accordion">
+  <button type="button" class="accordion__button">Wings</button>
+  <div class="accordion__content">
   <div class="menu-group">
     <div class="menu-item">
       <img class="menu-item-image" src="./Photos/Wings.jpg" alt=" Chicken Wings">
@@ -144,13 +149,15 @@
           <span class="menu-item-price">9.99</span>
         </h3>
         <p class="menu-item-description"> Six (6) Boneless Chicken wings. Choice of plain, bbq, spicy bbq, and buffalo. Choice of blue cheese or house-made ranch dressing. Includes celery and fries.</p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <h2 class="menu-group-heading">
-    Dessert
-    </h2>
+<div class="accordion">
+  <button type="button" class="accordion__button">Dessert</button>
+  <div class="accordion__content">
     <div class="menu-group">
       <div class="menu-item">
         <img class="menu-item-image" src="./Photos/Brownie Ice Cream.jpg" alt=" Brownie Ice Cream">
@@ -170,12 +177,15 @@
             <span class="menu-item-price">5.99</span>
           </h3>
           <p class="menu-item-description">Fresh baked pastry with a side of vanilla bean ice cream drizzled in honey.</p>
-        </div>
+        </div>  
       </div>
     </div>
-      <h2 class="menu-group-heading">
-        Drinks
-      </h2>
+  </div>
+</div>
+
+<div class="accordion">
+  <button type="button" class="accordion__button">Drinks</button>
+  <div class="accordion__content">
       <div class="menu-group">
         <div class="menu-item">
           <img class="menu-item-image" src="./Photos/Beer.jpg" alt=" Beer">
@@ -194,11 +204,15 @@
               <span class="menu-item-name">Mixed Drinks</span>
               <span class="menu-item-price">7.99</span>
             </h3>
-            <p class="menu-item-description"> Mixed drinks change weekly. Ask to see a drink menu for current choices..</p>
+            <p class="menu-item-description"> Mixed drinks change weekly. Ask to see a drink menu for current choices.</p>
           </div>
         </div>
       </div>
+    </div>
   </div>
+</div>
+
+  <!--Restaurant Menu End-->
  
   <h2>Upcoming Events</h2>
   <p>Upcoming Events Placeholder</p>
@@ -210,5 +224,15 @@
     <footer>
     Hometown Pizza 2022 -- social media buttons
     </footer>
+
+    <script>
+      document.querySelectorAll('.accordion__button').forEach(button => {
+        button.addEventListener('click', () => {
+
+
+          button.classList.toggle('accordion__button--active');
+        })
+      })
+    </script>
 </body>
 </html>

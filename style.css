@@ -69,6 +69,45 @@ li{
 main {
 }
 
+/* Accordion Box Begin */
+.accordion__button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #F0BB32;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.accordion__button::after {
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.accordion__button--active + .accordion__content {display: block }
+.accordion__button--active {background: #f7da91 }
+.accordion__button--active::after { content: '\25b4' }
+
+.accordion__content {
+    padding: 0 15px;
+    font-family: Bree;
+    color: white;
+    background: #020202;
+    
+    display: none;
+    overflow: auto;
+}
+
+/* Accordion Box End */
+
+/* Restaurant Menu Styles Begin */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -78,12 +117,6 @@ main {
 .menu {
     font-family: Bree;
     font-size: 14px;
-}
-
-.menu-group-heading {
-    margin: 0;
-    padding-bottom: 1em;
-    border-bottom: 2px solid #ccc;
 }
 
 .menu-group {
@@ -122,9 +155,13 @@ main {
   .menu-item-description {
     line-height: 1.6;
   }
+  /* Restaurant Menu Styles End */
 
+  /* Large Screen Media Query */
 @media screen and (min-width: 992px) {
-    .menu-group {
+    
+    /* Large Screen Restaurant Menu Styles Begin */
+    .menu {
         font-size: 16px;
     }
 
@@ -136,6 +173,8 @@ main {
         width: 125px;
         height: 125px;
     }
+    
+    /* Large Screen Restaurant Menu Styles End */
 }
 
 
