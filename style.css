@@ -6,65 +6,59 @@ body {
     padding: 0;
 
 }
+
 header {
-    background-color: #B21127;
-    padding: 20px;
+    padding: 0;
     
 }
+/*
 header > img  {
     width: 20%;
     float: left;
     }
+    */
 
+    /* Nav Styles Begin */
     nav {
-        margin-top: -3px;
-        padding:0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #B21127;
+    color: white;
+
     
     }
-    nav li {
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        display: block;
-        width: 20%;
-        float: left;
+    .navli {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
     }
     nav ul {
         list-style: none;
         margin: 0;
         padding: 0; 
+        display: inline;
     }
     nav a {
         display: block;
-        background-color: lavender;
         line-height: 2.8em;
         text-decoration: none;
         text-align: center;
         text-decoration: none;
-        color:lightsalmon;
+        color: white;
     }
     nav a:hover {
-        background-color: orangered;
-        color: green;
-        text-decoration: underline;
+        background-color: #f493a1;
+        color: #a0a0a0;
         font-size: 1.2em;
-        transition: background-color 0.5s ease-in 0.2s, color 0.5s ease-in 0.2s, font-size 1s ease;
+    }
+    .logo {
+        font-size: 32px;
     }
 
-/*
-nav {
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-li{
-    display: inline-block;
-}
-*/
+    /* Nav Styles End */
 
 main {
 }
