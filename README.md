@@ -12,3 +12,4 @@ Other base requirments:
 - Uses flexbox or grid for layout.
 - Best effort to be acccessible. 
 - A README that explains the project and how requirements are met. 
+- Mobile first layout with at least two queries. 
