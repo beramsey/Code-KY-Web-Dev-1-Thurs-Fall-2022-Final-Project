@@ -1,7 +1,7 @@
 body {
     background-color: #020202;
     color: white;
-    font-family: Alegreya, Bree; 
+    font-family: Alegreya, Bree serif; 
     margin: 0;
     padding: 0;
 
@@ -26,6 +26,7 @@ header > img  {
     padding: 20px;
     background-color: #B21127;
     color: white;
+    font-family: Bree Serif;
     }
     .navli {
     list-style: none;
@@ -62,8 +63,17 @@ header > img  {
 main {
 }
 
+h2 {
+  font-family: Bree Serif;
+}
+
+p {
+  font-family: Alegreya;
+}
+
 footer {
     background-color: #B21127;
+    font-family: Alegreya;
     color: white;
     padding: 10px 20px;
 }
@@ -146,6 +156,7 @@ img {vertical-align: middle;}
     cursor: pointer;
     background: #F0BB32;
     color: #ffffff;
+    font-family: Bree Serif;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
@@ -164,7 +175,7 @@ img {vertical-align: middle;}
 
 .accordion__content {
     padding: 0 15px;
-    font-family: Bree;
+    font-family: Alegreya;
     color: white;
     background: #020202;
     
@@ -182,7 +193,7 @@ img {vertical-align: middle;}
 }
 
 .menu {
-    font-family: Bree;
+    font-family: Alegreya;
     font-size: 14px;
 }
 
