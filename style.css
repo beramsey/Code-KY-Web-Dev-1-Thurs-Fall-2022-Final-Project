@@ -25,14 +25,13 @@ header > img  {
     justify-content: space-between;
     padding: 20px;
     background-color: #B21127;
-    color: white;
     font-family: Bree Serif;
     }
     .navli {
     list-style: none;
     display: flex;
     gap: 1em;
-    font-size: 18px;
+    font-size: 30px;
     }
     nav ul {
         list-style: none;
@@ -46,22 +45,20 @@ header > img  {
         text-decoration: none;
         text-align: center;
         text-decoration: none;
-        color: white;
+        color: #ffce7c;
     }
     nav a:hover {
         background-color: #f493a1;
-        color: #a0a0a0;
+        color: white;
         font-size: 1.2em;
         transition: 0.3s ease;
     }
     .logo {
-        font-size: 32px;
+        max-height: 9em;
+        max-width: auto;
     }
 
     /* Nav Styles End */
-
-main {
-}
 
 h2 {
   font-family: Bree Serif;
